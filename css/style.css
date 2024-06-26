@@ -1,0 +1,25 @@
+.header{
+    color: white;
+}
+
+.header {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+}
+h1{
+    background-color: black;
+    color: white;            /* Make text readable on a black background */
+    display: flex;
+    justify-content: center; /* Center the text inside the h1 */
+    padding: 10px;           /* Optional: add some padding for better visualization */
+    box-sizing: border-box;  /* Include padding in the element's width */
+}
+.lorem{
+    position: absolute;
+    top: 50%;      /* Center vertically */
+    left: 50%;     /* Center horizontally */
+}
+
